@@ -29,7 +29,7 @@ function sayHiToGrandma(string) {
   }
   return `I can't hear you!`
 }
-'hello!'.toLowerCase
+sayHiToGrandma('hello')
 
 function sayHiToGrandma(string) {
   return `I love you, too.`
