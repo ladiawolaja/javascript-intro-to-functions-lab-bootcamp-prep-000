@@ -29,7 +29,7 @@ function sayHiToGrandma(string) {
 'hello'
 
 function sayHiToGrandma(string) {
-else if (string === string.toUpperCase())
+  if (string === string.toUpperCase())
   return "YES INDEED!"
 }
 'HELLO'
