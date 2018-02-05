@@ -23,11 +23,11 @@ function logWhisper(string) {
 'hello'
 
 function sayHiToGrandma(string) {
-  return `I can't hear you!`
+  if (string === string.toLowerCase())
+  return "I can't hear you!"
+  else if (string === string.toUpperCase())
+  return "YES INDEED!"
+  else (string === "I love you, Grandma.")
+  return "I love youn too."
 }
-sayHiToGrandma('hello')
-
-function sayHiToGrandma(string) {
-  return `I love you, too.`
-}
-"I love you, Grandma"
+'hello'
